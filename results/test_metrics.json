@@ -1,0 +1,16 @@
+{
+  "target_column": "Congestion_Index",
+  "timestamp_column": "Timestamp",
+  "raw_records_used": 10000,
+  "hourly_observations": 1769,
+  "input_features": 71,
+  "lookback_hours": 24,
+  "train_fraction": 0.7,
+  "validation_fraction": 0.15,
+  "test_fraction": 0.15,
+  "test_mae": 9.4542818069458,
+  "test_rmse": 12.226781522598953,
+  "forecast_timestamp": "2022-03-15 17:00:00",
+  "forecast_value": 63.0023,
+  "notes": "Values copied from the saved execution of this notebook. Results are specific to the selected first 10,000 chronological records and this model run."
+}
